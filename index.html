@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prateek Singh | Portfolio</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+  </style>
+</head>
+<body class="font-sans">
+
+<!-- NAVBAR -->
+<nav class="flex justify-between items-center px-6 py-4 border-b border-gray-800">
+  <h1 class="text-xl font-bold">Prateek<span class="text-gray-400">.dev</span></h1>
+  <div class="space-x-5 text-gray-400">
+    <a href="#projects" class="hover:text-white">Projects</a>
+    <a href="#contact" class="hover:text-white">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="flex flex-col items-center justify-center text-center min-h-screen px-6">
+  <h2 class="text-4xl md:text-6xl font-bold mb-4">
+    Hi, I'm <span class="text-gray-400">Prateek Singh</span>
+  </h2>
+  <p class="text-gray-400 max-w-xl mb-6">
+    Computer Science student | Web Developer | Problem Solver  
+    I build clean, scalable and real-world projects.
+  </p>
+
+  <!-- SOCIAL LINKS -->
+  <div class="flex space-x-6 text-2xl">
+    <a href="https://linkedin.com/in/YOUR_ID" target="_blank" class="hover:text-gray-400">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/YOUR_GITHUB" target="_blank" class="hover:text-gray-400">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://leetcode.com/YOUR_LEETCODE" target="_blank" class="hover:text-gray-400">
+      <i class="fas fa-code"></i>
+    </a>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="px-6 py-20">
+  <h2 class="text-3xl font-bold mb-10 text-center">Projects</h2>
+
+  <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+
+    <!-- PROJECT CARD -->
+    <div class="border border-gray-800 rounded-xl overflow-hidden hover:border-white transition">
+      <img src="images/project1.png" alt="Project" class="w-full h-56 object-cover">
+      <div class="p-6">
+        <h3 class="text-xl font-semibold mb-2">PYQ Finder System</h3>
+        <p class="text-gray-400 mb-4">
+          Dynamic previous year question paper finder using Node.js & MongoDB.
+        </p>
+        <div class="flex space-x-4">
+          <a href="https://your-live-link.com" target="_blank"
+             class="border border-white px-4 py-2 text-sm hover:bg-white hover:text-black transition">
+            Live Demo
+          </a>
+          <a href="https://github.com/YOUR_REPO" target="_blank"
+             class="border border-gray-500 px-4 py-2 text-sm hover:border-white transition">
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT CARD -->
+    <div class="border border-gray-800 rounded-xl overflow-hidden hover:border-white transition">
+      <img src="images/project2.png" alt="Project" class="w-full h-56 object-cover">
+      <div class="p-6">
+        <h3 class="text-xl font-semibold mb-2">Room Finder Platform</h3>
+        <p class="text-gray-400 mb-4">
+          Rental room platform with authentication & listing system.
+        </p>
+        <div class="flex space-x-4">
+          <a href="#" class="border border-white px-4 py-2 text-sm hover:bg-white hover:text-black transition">
+            Live Demo
+          </a>
+          <a href="#" class="border border-gray-500 px-4 py-2 text-sm hover:border-white transition">
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="text-center py-16 border-t border-gray-800">
+  <h2 class="text-2xl font-bold mb-4">Let's Connect</h2>
+  <p class="text-gray-400 mb-4">Open to internships, projects & collaborations</p>
+  <p class="text-gray-300">📧 prateek@example.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-6 text-gray-500 text-sm">
+  © 2026 Prateek Singh. Built with ❤️
+</footer>
+
+</body>
+</html>
