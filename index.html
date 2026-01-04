@@ -8,8 +8,13 @@
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Icons -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
 
   
   <style>
@@ -85,15 +90,25 @@
   <h1 class="text-xl font-bold">Prateek<span class="text-gray-400">.dev</span></h1>
   <div class="space-x-5 text-gray-400">
     <a href="#projects" class="hover:text-white">Projects</a>
+     <a href="#contact" class="hover:text-white">Resume</a>
     <a href="#contact" class="hover:text-white">Contact</a>
+   
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="flex flex-col items-center justify-center text-center min-h-screen px-6">
-  <h2 class="text-4xl md:text-6xl font-bold mb-4">
-    Hi, I'm <span class="text-gray-400">Prateek Singh</span>
-  </h2>
+  <h2 class="text-4xl md:text-6xl font-bold mb-6 flex flex-wrap items-center justify-center gap-4">
+
+  <span>Hi, I'm</span>
+
+  <span class="text-gray-400">Prateek Singh</span>
+
+  <!-- Social Icons -->
+  
+</h2>
+
+
   <p class="text-gray-400 max-w-xl mb-6">
     Computer Science student | Web Developer | Problem Solver  
     I build clean, scalable and real-world projects.
@@ -101,13 +116,13 @@
 
   <!-- SOCIAL LINKS -->
   <div class="flex space-x-6 text-2xl">
-    <a href="https://linkedin.com/in/YOUR_ID" target="_blank" class="hover:text-gray-400">
+    <a href="https://www.linkedin.com/in/prateek-singh-490a08315/" target="_blank" class="hover:text-gray-400">
       <i class="fab fa-linkedin"></i>
     </a>
-    <a href="https://github.com/YOUR_GITHUB" target="_blank" class="hover:text-gray-400">
+    <a href="https://github.com/prateeknitcse" target="_blank" class="hover:text-gray-400">
       <i class="fab fa-github"></i>
     </a>
-    <a href="https://leetcode.com/YOUR_LEETCODE" target="_blank" class="hover:text-gray-400">
+    <a href="https://leetcode.com/u/prateeksingh010101/" target="_blank" class="hover:text-gray-400">
       <i class="fas fa-code"></i>
     </a>
   </div>
@@ -135,27 +150,24 @@
     <!-- Project Number -->
     <span class="text-gray-600 text-sm mb-2">01</span>
 
-    <h3 class="text-2xl font-semibold mb-3">PYQ Finder System</h3>
+    <h3 class="text-2xl font-semibold mb-3">Weather Forecast App</h3>
 
     <p class="text-gray-400 mb-4">
-      Dynamic previous year question paper finder with filters for branch,
-      semester, year and exam type.
+      Real-time weather forecasting app with location-based services.
     </p>
 
     <!-- Tech Stack Badges -->
     <div class="flex flex-wrap gap-2 mb-6">
-      <span class="border border-gray-700 px-3 py-1 text-xs">Node.js</span>
-      <span class="border border-gray-700 px-3 py-1 text-xs">Express</span>
-      <span class="border border-gray-700 px-3 py-1 text-xs">MongoDB</span>
+      <span class="border border-gray-700 px-3 py-1 text-xs">Javascript</span>
       <span class="border border-gray-700 px-3 py-1 text-xs">HTML/CSS</span>
     </div>
 
     <!-- Links -->
     <div class="flex space-x-4">
-      <a href="#" class="border border-white px-5 py-2 text-sm hover:bg-white hover:text-black transition">
+      <a href="https://weatherbyprateek.netlify.app/" target="_blank" class="border border-white px-5 py-2 text-sm hover:bg-white hover:text-black transition">
         Live Demo
       </a>
-      <a href="#" class="border border-gray-600 px-5 py-2 text-sm hover:border-white transition">
+      <a href="https://github.com/prateeknitcse/Weather-app" target="_blank" class="border border-gray-600 px-5 py-2 text-sm hover:border-white transition">
         GitHub
       </a>
     </div>
@@ -171,18 +183,19 @@
 
     <span class="text-gray-600 text-sm mb-2">02</span>
 
-    <h3 class="text-2xl font-semibold mb-3">Room Finder Platform</h3>
+    <h3 class="text-2xl font-semibold mb-3">PYQ Finder System</h3>
 
     <p class="text-gray-400 mb-4">
-      Rental platform for students & workers with authentication,
-      room listings, and media uploads.
+      A platform to upload and access previous year question papers
+      for various courses, enhancing exam preparation.
     </p>
 
     <div class="flex flex-wrap gap-2 mb-6">
       <span class="border border-gray-700 px-3 py-1 text-xs">Node.js</span>
       <span class="border border-gray-700 px-3 py-1 text-xs">MongoDB</span>
       <span class="border border-gray-700 px-3 py-1 text-xs">JWT</span>
-      <span class="border border-gray-700 px-3 py-1 text-xs">Tailwind</span>
+      <span class="border border-gray-700 px-3 py-1 text-xs">Express.js</span>
+      <span class="border border-gray-700 px-3 py-1 text-xs">JavaScript</span>
     </div>
 
     <div class="flex space-x-4">
@@ -242,45 +255,46 @@
     <div class="border border-gray-800 rounded-2xl p-8 flex flex-col justify-center">
       <h2 class="text-2xl font-bold mb-8">Tech Stack</h2>
 
-      <div class="grid grid-cols-3 sm:grid-cols-4 gap-6 place-items-center">
+     <div class="grid grid-cols-3 sm:grid-cols-4 gap-6 place-items-center">
 
-  <div class="tooltip" data-tip="HTML">
-    <img src="images/tech/html.png" class="h-12 grayscale hover:grayscale-0 transition">
+  <div class="tooltip tech-chip" data-tip="HTML">
+    <img src="images/tech/html.png">
   </div>
 
-  <div class="tooltip" data-tip="CSS">
-    <img src="images/tech/css.png" class="h-12 grayscale hover:grayscale-0 transition">
+  <div class="tooltip tech-chip" data-tip="CSS">
+    <img src="images/tech/css.png">
   </div>
 
-  <div class="tooltip" data-tip="JavaScript">
-    <img src="images/tech/javascript.png" class="h-12 grayscale hover:grayscale-0 transition">
+  <div class="tooltip tech-chip" data-tip="JavaScript">
+    <img src="images/tech/javascript.png">
   </div>
 
-  <div class="tooltip" data-tip="C">
-    <img src="images/tech/c.png" class="h-12 grayscale hover:grayscale-0 transition">
+  <div class="tooltip tech-chip" data-tip="C">
+    <img src="images/tech/c.png">
   </div>
 
-  <div class="tooltip" data-tip="C++">
-    <img src="images/tech/cpp.png" class="h-12 grayscale hover:grayscale-0 transition">
+  <div class="tooltip tech-chip" data-tip="C++">
+    <img src="images/tech/cpp.png">
   </div>
 
-  <div class="tooltip" data-tip="Node.js">
-    <img src="images/tech/nodejs.png" class="h-12 grayscale hover:grayscale-0 transition">
+  <div class="tooltip tech-chip" data-tip="Node.js">
+    <img src="images/tech/nodejs.png">
   </div>
 
-  <div class="tooltip" data-tip="Express.js">
-    <img src="images/tech/express.png" class="h-12 grayscale hover:grayscale-0 transition">
+  <div class="tooltip tech-chip" data-tip="Express.js">
+    <img src="images/tech/express.png">
   </div>
 
-  <div class="tooltip" data-tip="MongoDB">
-    <img src="images/tech/mongodb.png" class="h-12 grayscale hover:grayscale-0 transition">
+  <div class="tooltip tech-chip" data-tip="MongoDB">
+    <img src="images/tech/mongodb.png">
   </div>
 
-  <div class="tooltip" data-tip="React">
-    <img src="images/tech/react.png" class="h-12 grayscale hover:grayscale-0 transition">
+  <div class="tooltip tech-chip" data-tip="React">
+    <img src="images/tech/react.png">
   </div>
 
 </div>
+
 
     </div>
 
@@ -306,7 +320,7 @@
 <section id="contact" class="text-center py-16 border-t border-gray-800">
   <h2 class="text-2xl font-bold mb-4">Let's Connect</h2>
   <p class="text-gray-400 mb-4">Open to internships, projects & collaborations</p>
-  <p class="text-gray-300">📧 prateek@example.com</p>
+  <p class="text-gray-300">📧 prateeksingh010101@gmail.com</p>
 </section>
 
 
